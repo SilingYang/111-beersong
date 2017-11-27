@@ -1,0 +1,23 @@
+{
+  "name": "99_bottles_of_beers_song",
+  "version": "1.0.0",
+  "description": "The beersong In this puzzle, write code to print out the entire \"99 bottles of beer on the wall\" song. For those who do not know the song, the lyrics follow this form:",
+  "main": "main.js",
+  "dependencies": {
+    "jasmine-core": "^2.8.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma": "^1.7.1",
+    "karma-cli": "^1.0.1",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-mocha-reporter": "^2.2.5"
+  },
+  "devDependencies": {
+    "jasmine": "^2.8.0"
+  },
+  "scripts": {
+    "test": "jasmine ./spec/*.js"
+  },
+  "author": "Siling",
+  "license": "ISC"
+}
